@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NguyenThanhDat19494791_Change_Maker</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="clear">Clear</string>
+    <string name="price">Price:</string>
+    <string name="parentheses">( )</string>
+    <string name="divide">/</string>
+    <string name="twentyd">$20:</string>
+    <string name="tend">$10:</string>
+    <string name="fived">$5:</string>
+    <string name="oned">$1:</string>
+    <string name="c25">25C:</string>
+    <string name="c10">10C:</string>
+    <string name="c5">5C:</string>
+    <string name="c1">1C:</string>
+    <string name="twentydv"></string>
+    <string name="tendv"></string>
+    <string name="fivedv"></string>
+    <string name="onedv"></string>
+    <string name="c25v"></string>
+    <string name="c10v"></string>
+    <string name="c5v"></string>
+    <string name="c1v"></string>
+    <string name="value"></string>
+
+</resources>
