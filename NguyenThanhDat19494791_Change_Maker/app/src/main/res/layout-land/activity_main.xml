@@ -240,6 +240,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:textColor="#795548"
+                android:backgroundTint="#d6d7d7"
                 android:text="@string/one"
 
                 />
@@ -250,6 +252,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:textColor="#795548"
+                android:backgroundTint="#d6d7d7"
                 android:text="@string/two" />
 
             <Button
@@ -258,6 +262,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:textColor="#795548"
+                android:backgroundTint="#d6d7d7"
                 android:text="@string/three" />
 
             <Button
@@ -266,6 +272,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:textColor="#795548"
+                android:backgroundTint="#d6d7d7"
                 android:text="@string/four" />
 
         </TableRow>
@@ -280,6 +288,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:textColor="#795548"
+                android:backgroundTint="#d6d7d7"
                 android:text="@string/five" />
 
             <Button
@@ -287,6 +297,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:textColor="#795548"
+                android:backgroundTint="#d6d7d7"
                 android:layout_weight="1"
                 android:text="@string/six" />
 
@@ -296,6 +308,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:textColor="#795548"
+                android:backgroundTint="#d6d7d7"
                 android:text="@string/seven" />
 
             <Button
@@ -304,6 +318,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:textColor="#795548"
+                android:backgroundTint="#d6d7d7"
                 android:text="@string/eight" />
 
         </TableRow>
@@ -317,6 +333,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:textColor="#795548"
+                android:backgroundTint="#d6d7d7"
                 android:layout_weight="0.5"
                 android:text="@string/nine" />
 
@@ -326,6 +344,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="0.5"
+                android:textColor="#795548"
+                android:backgroundTint="#d6d7d7"
                 android:text="@string/zero" />
 
             <Button
@@ -334,7 +354,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="2"
-
+                android:textColor="#795548"
+                android:backgroundTint="#d6d7d7"
                 android:text="@string/clear" />
 
         </TableRow>

@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
 
         val clear = findViewById<Button>(R.id.clearBNT)
         clear.setOnClickListener {
-
+            var price = findViewById<TextView>(R.id.value)
             price.text = ""
             change()
         }
@@ -110,7 +110,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun change(){
     val price = findViewById<TextView>(R.id.value)
-        var v: Int = price.text.toString().toInt()
+        var v: Int = if (price.text.toString()=="") 0 else (price.text.toString().toInt())
         val twentyd = findViewById<TextView>(R.id.twentyd)
         val d20 = (v/2000)
         twentyd.text = d20.toString()
