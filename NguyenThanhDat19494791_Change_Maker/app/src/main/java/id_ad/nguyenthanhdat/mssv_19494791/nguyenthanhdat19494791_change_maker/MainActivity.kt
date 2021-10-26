@@ -1,16 +1,33 @@
 package id_ad.nguyenthanhdat.mssv_19494791.nguyenthanhdat19494791_change_maker
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 
 class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
+    var saveState: String? = ""
+
+
+    override fun onCreate(savedInstanceState: Bundle?,) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         onClickKeypad()
+    }
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.putString("txtInput", findViewById<TextView>(R.id.value).text.toString())
+        outState.putString("save", saveState)
+        super.onSaveInstanceState(outState)
+        change()
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        findViewById<TextView>(R.id.value).text = savedInstanceState.getString("txtInput")
+        saveState = savedInstanceState.getString("save").toString()
+        change()
     }
 
     private fun onClickKeypad() {
